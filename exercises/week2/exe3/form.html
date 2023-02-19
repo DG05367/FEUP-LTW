@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+
+<body>
+    <!-- WARNING! THIS EXERCISE ITS NOT FINISHED SINCE IT IS NOT CORRECT -->
+    <form>
+        <label for="nameid">Name:</label> <input type="text" id="nameid" name="name" placeholder="Write your name"
+            required="required"> <br>
+
+        <label for="age">Age:</label>
+        <input type="radio" name="age">&lt;18
+        <input type="radio" name="age">19-35
+        <input type="radio" name="age">36-48
+        <input type="radio" name="age">&gt;49 <br>
+
+        <label for="profession">Profession:</label>
+        <input list="professions" name="profession" id="profession" required="required"> <br>
+        <datalist id="professions">
+            <option value="Professor">
+            <option value="Firefighter">
+            <option value="Police">
+            <option value="Friend">
+        </datalist>
+
+        <label for="country">Country:</label>
+        <select name="country" required="required">
+            <option value="">Ireland</option>
+            <option value="portugal">Portugal</option>
+            <option value="espanha">Espanha</option>
+            <option value="italia">Italia</option>
+            <option value="grecia">Grecia</option>
+        </select> <br>
+
+        <label for="interests">Interests:</label><br>
+        <input type="checkbox" name="cooking" value="cooking">Cooking <input type="checkbox" name="sports"
+            value="sports">Sports<br>
+        <input type="checkbox" name="reading" value="reading">Reading <input type="checkbox" name="videogames"
+            value="videogames">Videogames<br>
+        <input type="checkbox" name="music" value="music">Music <input type="checkbox" name="programming"
+            value="programming">Programming<br>
+
+        <label for="id_howsite">How did you find this website:</label><br>
+        <textarea name="description" rows="5" cols="60"></textarea> <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
