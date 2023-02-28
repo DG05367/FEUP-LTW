@@ -1,0 +1,76 @@
+/* Titulo Imperial Script
+Subtitulo Ruda
+Texto Crimson Pro
+font-family: 'Crimson Pro', serif;
+font-family: 'Imperial Script', cursive;
+font-family: 'Ruda', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+
+html {
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.5rem;
+}
+
+body>header,
+article.recipe {
+    width: 30em;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+body>header {
+    text-align: center;
+}
+
+body>header h1 {
+    font-family: "Imperial Script", serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+article.recipe {
+    background-color: rgb(255, 242, 213);
+    padding: 1em;
+}
+
+article.recipe h2 {
+    font-family: "Ruda", sans-serif;
+    text-align: right;
+    border-bottom: 2px solid #000000;
+}
+
+article.recipe header dl {
+    border: 2px dashed rgb(248, 163, 163);
+    border-right: 10px solid rgb(248, 163, 163);
+    border-radius: 20px 0 0 20px;
+    background-color: rgb(255, 204, 204);
+    padding: 0 1em;
+}
+
+article.recipe header dt{
+    font-variant-caps: small-caps;
+    margin-top: 0.5em;
+}
+
+article.recipe header dd {
+    margin-left: 0;
+    
+}
+
+section.description img {
+    width: 100%;
+}
+
+section.method li,
+section.ingredients li {
+  margin-bottom: 1em;
+}
+
+span.ingredient {
+    font-weight: bold;
+    color: #70a093;
+}
