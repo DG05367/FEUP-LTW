@@ -1,0 +1,28 @@
+a{    
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: bisque;
+    color: rgb(17, 1, 1);
+
+}
+
+header li {
+    text-align: right;
+     
+}
+
+header img{
+    width: 100px;
+}
+
+span.boldpart{ 
+    font-weight: bold;
+}
+
+li{
+    list-style-type: none;   
+
+}

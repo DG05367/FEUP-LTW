@@ -1,0 +1,54 @@
+body {
+    display: grid;
+    grid-template-rows: [start] 1fr [left] auto [right] auto [end];
+    grid-template-columns: [start] auto [middle] auto [end];
+    gap: 20px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: [start] auto [left] auto [middle] 1fr [right] 1fr [end];
+    grid-template-rows: [start] 1fr [middle] auto [end];
+    grid-row: start;
+    grid-column: start / end;
+}
+
+ul {
+    grid-column: right;
+}
+
+img {
+    grid-column: start;
+    grid-row: start;
+}
+h1 {
+    grid-column: left;
+    grid-row: start;
+}
+
+form:nth-child(3) {
+    grid-row: 3;
+    grid-column: 1;
+    padding-bottom: 1em;
+}
+
+form:nth-child(4) {
+    grid-row: 3;
+    grid-column: 1;
+    padding-bottom: 1em;
+}
+
+form:nth-child(5) {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 1em;
+}
+
+#register_form :last-child{
+    margin-top: 1em;
+}
